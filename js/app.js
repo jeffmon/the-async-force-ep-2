@@ -11,7 +11,7 @@
       personSpecies.innerHTML = "Species: " + specResponse.name;
       contentContainer.appendChild(personSpecies);
     });
-    oReq.open("GET", url[0]);
+    oReq.open("GET", url);
     oReq.send();
   }
 
